@@ -14,7 +14,7 @@ namespace Automatos_Data.Controllers
 
         public void Escreva(char dado)
         {
-            if (dado != '_') Center.Dado = dado;
+            Center.Dado = dado;
         }
 
         public string LerTodos() => new string(this.Select(e => e.Dado).Where(c => c != '_').ToArray());
