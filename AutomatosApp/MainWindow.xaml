@@ -1,0 +1,303 @@
+﻿<Window x:Class="proj_automatos.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:proj_automatos"
+        xmlns:c="clr-namespace:proj_automatos.Controls"
+        xmlns:fa="http://schemas.fontawesome.io/icons/"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="600" Width="1024"
+        WindowStyle="None"
+        ResizeMode="NoResize"
+        AllowsTransparency="True"
+        WindowStartupLocation="CenterOwner">
+    <Grid>
+        <Grid.ColumnDefinitions>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="40"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="150"/>
+        </Grid.RowDefinitions>
+        <ScrollViewer
+            Grid.Row="1"
+            HorizontalAlignment="Center"
+            HorizontalScrollBarVisibility="Auto">
+            <StackPanel
+                x:Name="DataStackPanel"
+                Margin="15 0 0 0"
+                HorizontalAlignment="Center"
+                Orientation="Horizontal"
+                VerticalAlignment="Center">
+                <StackPanel.Resources>
+                    <Style TargetType="{x:Type c:TuringMachineEntry}">
+                        <Setter Property="Margin" Value="0 0 0 0"/>
+                    </Style>
+                </StackPanel.Resources>
+            </StackPanel>
+        </ScrollViewer>
+        <Grid
+            MouseDown="TitleBar_MouseDown"
+            Background="#424242">
+            <Grid.Effect>
+                <DropShadowEffect ShadowDepth="2"></DropShadowEffect>
+            </Grid.Effect>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="45"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="45"/>
+            </Grid.ColumnDefinitions>
+            <Label
+                Grid.Column="1"
+                HorizontalAlignment="Center"
+                HorizontalContentAlignment="Center"
+                VerticalAlignment="Center"
+                FontFamily="{StaticResource MaterialDesignFont}"
+                FontSize="21"
+                Foreground="White"
+                FontWeight="DemiBold"
+                Content="Automatos"/>
+            <Button
+                Click="ExitButtonClick"
+                Grid.Column="2"
+                Width="25"
+                Height="25"
+                Style="{StaticResource MaterialDesignFloatingActionMiniAccentButton}"
+                Background="{x:Null}"
+                BorderBrush="{x:Null}">
+                <fa:ImageAwesome
+                    Width="20"
+                    Height="20"
+                    Icon="Close"/>
+            </Button>
+        </Grid>
+        <Grid
+            Row="2"
+            Background="#78909C">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="400"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="10"/>
+            </Grid.ColumnDefinitions>
+            <Border
+                Grid.Column="1"
+                BorderBrush="#ECEFF1"
+                Margin="0 5 0 5"
+                BorderThickness="5"
+                CornerRadius="2">
+                <Grid
+                    x:Name="TMStatusGrid"
+                    Background="#ECEFF1">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="3*"/>
+                        <ColumnDefinition Width="2*"/>
+                        <ColumnDefinition Width="5"/>
+                        <ColumnDefinition Width="3*"/>
+                        <ColumnDefinition Width="2*"/>
+                        <ColumnDefinition Width="3*"/>
+                        <ColumnDefinition Width="2*"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+                    <Border
+                        Grid.Column="2"
+                        Grid.RowSpan="2"
+                        Background="#CC808080"
+                        CornerRadius="2"
+                        Width="2"
+                        />
+                    <Label
+                        Grid.Row="0"
+                        Grid.Column="0"
+                        Content="Current State:"
+                        FontSize="16"
+                        FontFamily="{StaticResource MaterialDesignFont}"
+                        VerticalContentAlignment="Center"/>
+                    <Label
+                        x:Name="CurrentStateLabel"
+                        Grid.Row="0"
+                        Grid.Column="1"
+                        Content="xi"
+                        FontSize="16"
+                        FontFamily="{StaticResource MaterialDesignFont}"
+                        VerticalContentAlignment="Center"
+                        HorizontalContentAlignment="Center"/>
+                    <Label
+                        Grid.Row="1"
+                        Grid.Column="0"
+                        Content="Current Data:"
+                        FontSize="16"
+                        FontFamily="{StaticResource MaterialDesignFont}"
+                        VerticalContentAlignment="Center"/>
+                    <Label
+                        x:Name="CurrentDataLabel"
+                        Grid.Row="1"
+                        Grid.Column="1"
+                        Content="1"
+                        FontSize="16"
+                        FontFamily="{StaticResource MaterialDesignFont}"
+                        VerticalContentAlignment="Center"
+                        HorizontalContentAlignment="Center"/>
+                    <Label
+                        Grid.Row="0"
+                        Grid.Column="3"
+                        Content="Next State:"
+                        FontSize="16"
+                        FontFamily="{StaticResource MaterialDesignFont}"
+                        VerticalContentAlignment="Center"/>
+                    <Label
+                        x:Name="NextStateLabel"
+                        Grid.Column="4"
+                        Grid.Row="0"
+                        Content="x1"
+                        FontSize="16"
+                        FontFamily="{StaticResource MaterialDesignFont}"
+                        VerticalContentAlignment="Center"
+                        HorizontalContentAlignment="Center"/>
+                    <Label
+                        Grid.Row="1"
+                        Grid.Column="3"
+                        Content="Input Data:"
+                        FontSize="16"
+                        FontFamily="{StaticResource MaterialDesignFont}"
+                        VerticalContentAlignment="Center"/>
+                    <Label
+                        x:Name="InputDataLabel"
+                        Grid.Row="1"
+                        Grid.Column="4"
+                        Content="1"
+                        FontSize="16"
+                        FontFamily="{StaticResource MaterialDesignFont}"
+                        VerticalContentAlignment="Center"
+                        HorizontalContentAlignment="Center"/>
+                    <Label
+                        Grid.Row="0"
+                        Grid.Column="5"
+                        Content="Movement:"
+                        FontSize="16"
+                        FontFamily="{StaticResource MaterialDesignFont}"
+                        VerticalContentAlignment="Center"/>
+                    <Label
+                        x:Name="MovementLabel"
+                        Grid.Column="6"
+                        Grid.Row="0"
+                        Content="&lt;"
+                        FontSize="26"
+                        FontFamily="{StaticResource MaterialDesignFont}"
+                        VerticalContentAlignment="Center"
+                        HorizontalContentAlignment="Center"/>
+                    <Border
+                        x:Name="ResultBorder"
+                        Visibility="Hidden"
+                        Grid.Row="1"
+                        Grid.Column="6"
+                        CornerRadius="15"
+                        Margin="5"
+                        Background="SpringGreen">
+                    </Border>
+                    <Label
+                        Grid.Row="1"
+                        Grid.Column="5"
+                        Content="Machine State:"
+                        FontSize="16"
+                        FontFamily="{StaticResource MaterialDesignFont}"
+                        VerticalContentAlignment="Center"/>
+                    <Label
+                        x:Name="MachineStateLabel"
+                        Grid.Row="1"
+                        Grid.Column="6"
+                        Content="Ready"
+                        FontSize="16"
+                        FontFamily="{StaticResource MaterialDesignFont}"
+                        VerticalContentAlignment="Center"
+                        HorizontalContentAlignment="Center"/>
+                </Grid>
+            </Border>
+            <Grid
+                Margin="0 -8 0 8">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+                <Button
+                    x:Name="OpenFileButton"
+                    Click="OpenFileButton_Click"
+                    Margin="20 0 20 0"
+                    Height="45">
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="300"/>
+                        </Grid.ColumnDefinitions>
+                        <fa:ImageAwesome
+                            Grid.Column="0"
+                            Icon="File"
+                            Foreground="White"/>
+                        <Label
+                            HorizontalAlignment="Left"
+                            VerticalAlignment="Center"
+                            FontFamily="{StaticResource MaterialDesignFont}"
+                            FontSize="18"
+                            FontWeight="DemiBold"
+                            Foreground="White"
+                            Grid.Column="1"
+                            Margin="15 0 0 0"
+                            Content="Abrir Algoritmo"/>
+                    </Grid>
+                </Button>
+                <Grid
+                    Grid.Row="1">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <Button
+                        x:Name="PlayButton"
+                        Click="PlayButton_Click"
+                        Width="70"
+                        Height="70"
+                        Grid.Column="0">
+                        <fa:ImageAwesome
+                            Icon="Play"
+                            Foreground="White"/>
+                    </Button>
+                    <Button
+                        x:Name="ForwardButton"
+                        Click="ForwardButton_Click"
+                        Width="70"
+                        Height="70"
+                        Grid.Column="1">
+                        <fa:ImageAwesome
+                            Icon="Forward"
+                            Foreground="White"/>
+                    </Button>
+                    <Button
+                        x:Name="StopButton"
+                        Click="StopButton_Click"
+                        Width="70"
+                        Height="70"
+                        Grid.Column="2">
+                        <fa:ImageAwesome
+                            Icon="Stop"
+                            Foreground="White"/>
+                    </Button>
+                    <Button
+                        x:Name="ResetButton"
+                        Click="ResetButton_Click"
+                        Width="70"
+                        Height="70"
+                        Grid.Column="3">
+                        <fa:ImageAwesome
+                            Icon="Undo"
+                            Foreground="White"/>
+                    </Button>
+                </Grid>
+            </Grid>
+        </Grid>
+    </Grid>
+</Window>
