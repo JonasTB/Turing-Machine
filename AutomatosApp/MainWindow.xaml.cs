@@ -45,6 +45,13 @@ namespace proj_automatos
                 DataStackPanel.Children.Add(new TuringMachineEntry(entry, entry == TuringMachine.Dado.Center 
                     && TuringMachine.MachineEstado != TuringMachine.Estado.Finalizado));
             }
+
+            if (TuringMachine.MachineEstado == TuringMachine.Estado.Finalizado)
+            {
+                ResultadoLabel.Content = $"Resultado: ";
+                ResultadoLabel.Content += TuringMachine.Resultado == TuringMachine.ResultadoFinal.Valido ? "Válido" : "Inválido";
+            }
+            else ResultadoLabel.Content = "";
         }
 
         private void PlayButton_Click(object sender, RoutedEventArgs e)

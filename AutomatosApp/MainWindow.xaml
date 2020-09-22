@@ -265,6 +265,7 @@
                     <ColumnDefinition Width="140"/>
                     <ColumnDefinition Width="80"/>
                     <ColumnDefinition Width="100"/>
+                    <ColumnDefinition Width="*"/>
                 </Grid.ColumnDefinitions>
                 <Button
                     Click="OpenFileButton_Click"
@@ -286,6 +287,12 @@
                     Style="{x:Null}"
                     Content="Reiniciar">
                 </Button>
+                <Label
+                    x:Name="ResultadoLabel"
+                    Grid.Column="3"
+                    FontSize="18"
+                    VerticalContentAlignment="Center">
+                </Label>
             </Grid>
         </Grid>
     </Grid>

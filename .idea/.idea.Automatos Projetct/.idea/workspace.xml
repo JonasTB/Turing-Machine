@@ -6,30 +6,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="01b93459-2df6-4220-9b80-a51ee6fdb24f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Automatos Projetct/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Automatos Projetct/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Automatos Projetct/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Automatos Projetct/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Automato Test/obj/Automato Test.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Automato Test/obj/Automato Test.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Automato Test/obj/Automato Test.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/Automato Test/obj/Automato Test.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Automato Test/obj/Debug/netcoreapp3.1/Automato Test.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Automato Test/obj/Debug/netcoreapp3.1/Automato Test.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Automato Test/obj/Debug/netcoreapp3.1/Automato Test.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Automato Test/obj/Debug/netcoreapp3.1/Automato Test.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Automato Test/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Automato Test/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Automato Test/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Automato Test/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Automato Test/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Automato Test/obj/project.packagespec.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Automatos Data/bin/Debug/netcoreapp3.1/Automatos Data.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Automatos Data/bin/Debug/netcoreapp3.1/Automatos Data.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Automatos Data/bin/Debug/netcoreapp3.1/Automatos Data.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Automatos Data/bin/Debug/netcoreapp3.1/Automatos Data.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Automatos Data/obj/Automatos Data.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Automatos Data/obj/Automatos Data.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Automatos Data/obj/Automatos Data.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/Automatos Data/obj/Automatos Data.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Automatos Data/obj/Debug/netcoreapp3.1/Automatos Data.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Automatos Data/obj/Debug/netcoreapp3.1/Automatos Data.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Automatos Data/obj/Debug/netcoreapp3.1/Automatos Data.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Automatos Data/obj/Debug/netcoreapp3.1/Automatos Data.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Automatos Data/obj/Debug/netcoreapp3.1/Automatos Data.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Automatos Data/obj/Debug/netcoreapp3.1/Automatos Data.csprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Automatos Data/obj/Debug/netcoreapp3.1/Automatos Data.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Automatos Data/obj/Debug/netcoreapp3.1/Automatos Data.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Automatos Data/obj/Debug/netcoreapp3.1/Automatos Data.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Automatos Data/obj/Debug/netcoreapp3.1/Automatos Data.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Automatos Data/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Automatos Data/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Automatos Data/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Automatos Data/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Automatos Data/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Automatos Data/obj/project.packagespec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AutomatosApp/AutomatosApp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/AutomatosApp/AutomatosApp.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AutomatosApp/Controls/TuringMachineEntry.xaml" beforeDir="false" afterPath="$PROJECT_DIR$/AutomatosApp/Controls/TuringMachineEntry.xaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AutomatosApp/MainWindow.xaml" beforeDir="false" afterPath="$PROJECT_DIR$/AutomatosApp/MainWindow.xaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AutomatosApp/MainWindow.xaml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AutomatosApp/MainWindow.xaml.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -122,7 +105,7 @@
       <updated>1600708869281</updated>
       <workItem from="1600708883932" duration="962000" />
       <workItem from="1600723418565" duration="10264000" />
-      <workItem from="1600733992028" duration="819000" />
+      <workItem from="1600733992028" duration="2013000" />
     </task>
     <servers />
   </component>
