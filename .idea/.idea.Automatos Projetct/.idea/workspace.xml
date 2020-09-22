@@ -5,11 +5,39 @@
     <projectFile>AutomatosApp/AutomatosApp.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="01b93459-2df6-4220-9b80-a51ee6fdb24f" name="Default Changelist" comment="" />
+    <list default="true" id="01b93459-2df6-4220-9b80-a51ee6fdb24f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Automatos Projetct/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Automatos Projetct/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Automatos Projetct/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Automatos Projetct/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Automato Test/obj/Automato Test.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Automato Test/obj/Automato Test.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Automato Test/obj/Automato Test.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/Automato Test/obj/Automato Test.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Automato Test/obj/Debug/netcoreapp3.1/Automato Test.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Automato Test/obj/Debug/netcoreapp3.1/Automato Test.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Automato Test/obj/Debug/netcoreapp3.1/Automato Test.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Automato Test/obj/Debug/netcoreapp3.1/Automato Test.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Automato Test/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Automato Test/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Automato Test/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Automato Test/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Automato Test/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Automato Test/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Automatos Data/bin/Debug/netcoreapp3.1/Automatos Data.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Automatos Data/bin/Debug/netcoreapp3.1/Automatos Data.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Automatos Data/bin/Debug/netcoreapp3.1/Automatos Data.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Automatos Data/bin/Debug/netcoreapp3.1/Automatos Data.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Automatos Data/obj/Automatos Data.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Automatos Data/obj/Automatos Data.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Automatos Data/obj/Automatos Data.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/Automatos Data/obj/Automatos Data.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Automatos Data/obj/Debug/netcoreapp3.1/Automatos Data.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Automatos Data/obj/Debug/netcoreapp3.1/Automatos Data.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Automatos Data/obj/Debug/netcoreapp3.1/Automatos Data.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Automatos Data/obj/Debug/netcoreapp3.1/Automatos Data.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Automatos Data/obj/Debug/netcoreapp3.1/Automatos Data.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Automatos Data/obj/Debug/netcoreapp3.1/Automatos Data.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Automatos Data/obj/Debug/netcoreapp3.1/Automatos Data.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Automatos Data/obj/Debug/netcoreapp3.1/Automatos Data.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Automatos Data/obj/Debug/netcoreapp3.1/Automatos Data.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Automatos Data/obj/Debug/netcoreapp3.1/Automatos Data.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Automatos Data/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Automatos Data/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Automatos Data/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Automatos Data/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Automatos Data/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Automatos Data/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AutomatosApp/AutomatosApp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/AutomatosApp/AutomatosApp.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AutomatosApp/Controls/TuringMachineEntry.xaml" beforeDir="false" afterPath="$PROJECT_DIR$/AutomatosApp/Controls/TuringMachineEntry.xaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AutomatosApp/MainWindow.xaml" beforeDir="false" afterPath="$PROJECT_DIR$/AutomatosApp/MainWindow.xaml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -31,6 +59,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -80,7 +109,10 @@
       </method>
     </configuration>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="01b93459-2df6-4220-9b80-a51ee6fdb24f" name="Default Changelist" comment="" />
@@ -90,11 +122,12 @@
       <updated>1600708869281</updated>
       <workItem from="1600708883932" duration="962000" />
       <workItem from="1600723418565" duration="10264000" />
+      <workItem from="1600733992028" duration="819000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="3" />
+    <option name="version" value="2" />
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
@@ -102,6 +135,10 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="675" y="165" key="#Automatos_App" timestamp="1600734158889">
+      <screen x="62" y="0" width="1858" height="1080" />
+    </state>
+    <state x="675" y="165" key="#Automatos_App/1982.72.1858.1080/62.0.1858.1080@62.0.1858.1080" timestamp="1600734158889" />
     <state x="361" y="144" key="Rider.ProjectTemplateDialog.Size" timestamp="1600709122821">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

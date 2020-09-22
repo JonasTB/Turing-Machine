@@ -28,19 +28,7 @@ namespace proj_automatos.Controls
         public TuringMachineEntry(TuringMachineDataEntry turingMachineDataEntry, bool isSource)
         {
             InitializeComponent();
-
-            if (isSource)
-            {
-                EntryContent.Foreground = Brushes.Black;
-                Border.Background = (SolidColorBrush)new BrushConverter().ConvertFromString("#d2dae2");
-                Arrow.Visibility = Visibility.Visible;
-            } else
-            {
-                EntryContent.Foreground = Brushes.White;
-                Border.Background = (SolidColorBrush)new BrushConverter().ConvertFromString("#303952");
-                Arrow.Visibility = Visibility.Hidden;
-            }
-
+            SelectionBorder.Visibility = isSource ? Visibility.Visible : Visibility.Hidden;
             EntryContent.Content = turingMachineDataEntry.Dado;
         }
     }

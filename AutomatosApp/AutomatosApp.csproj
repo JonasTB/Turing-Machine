@@ -9,7 +9,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Automatos Data\Automatos Data.csproj" />
-    <ProjectReference Include="..\AutomatosData\AutomatosData.csproj" />
   </ItemGroup>
 
   <ItemGroup>

@@ -7,10 +7,8 @@
         xmlns:c="clr-namespace:proj_automatos.Controls"
         xmlns:fa="http://schemas.fontawesome.io/icons/"
         mc:Ignorable="d"
-        Title="MainWindow" Height="600" Width="1024"
-        WindowStyle="None"
-        ResizeMode="NoResize"
-        AllowsTransparency="True"
+        Title="Trabalho Prototipos" Height="600" Width="1024"
+        WindowStyle="SingleBorderWindow"
         WindowStartupLocation="CenterOwner">
     <Grid>
         <Grid.ColumnDefinitions>
@@ -18,9 +16,9 @@
         <Grid.RowDefinitions>
             <RowDefinition Height="40"/>
             <RowDefinition Height="*"/>
-            <RowDefinition Height="150"/>
         </Grid.RowDefinitions>
         <ScrollViewer
+            Margin="0 -100 0 0"
             Grid.Row="1"
             HorizontalAlignment="Center"
             HorizontalScrollBarVisibility="Auto">
@@ -30,49 +28,9 @@
                 HorizontalAlignment="Center"
                 Orientation="Horizontal"
                 VerticalAlignment="Center">
-                <StackPanel.Resources>
-                    <Style TargetType="{x:Type c:TuringMachineEntry}">
-                        <Setter Property="Margin" Value="0 0 0 0"/>
-                    </Style>
-                </StackPanel.Resources>
             </StackPanel>
         </ScrollViewer>
-        <Grid
-            MouseDown="TitleBar_MouseDown"
-            Background="#424242">
-            <Grid.Effect>
-                <DropShadowEffect ShadowDepth="2"></DropShadowEffect>
-            </Grid.Effect>
-            <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="45"/>
-                <ColumnDefinition Width="*"/>
-                <ColumnDefinition Width="45"/>
-            </Grid.ColumnDefinitions>
-            <Label
-                Grid.Column="1"
-                HorizontalAlignment="Center"
-                HorizontalContentAlignment="Center"
-                VerticalAlignment="Center"
-                FontFamily="{StaticResource MaterialDesignFont}"
-                FontSize="21"
-                Foreground="White"
-                FontWeight="DemiBold"
-                Content="Automatos"/>
-            <Button
-                Click="ExitButtonClick"
-                Grid.Column="2"
-                Width="25"
-                Height="25"
-                Style="{StaticResource MaterialDesignFloatingActionMiniAccentButton}"
-                Background="{x:Null}"
-                BorderBrush="{x:Null}">
-                <fa:ImageAwesome
-                    Width="20"
-                    Height="20"
-                    Icon="Close"/>
-            </Button>
-        </Grid>
-        <Grid
+        <!--<Grid
             Row="2"
             Background="#78909C">
             <Grid.ColumnDefinitions>
@@ -297,6 +255,37 @@
                             Foreground="White"/>
                     </Button>
                 </Grid>
+            </Grid>
+        </Grid>-->
+        <Grid
+            Grid.Row="0"
+            Background="Gray">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="140"/>
+                    <ColumnDefinition Width="80"/>
+                    <ColumnDefinition Width="100"/>
+                </Grid.ColumnDefinitions>
+                <Button
+                    Click="OpenFileButton_Click"
+                    Margin="5 5 5 5"
+                    Style="{x:Null}"
+                    Content="Abrir Algoritmo">
+                </Button>
+                <Button
+                    Click="PlayButton_Click"
+                    Margin="5 5 5 5"
+                    Grid.Column="1"
+                    Style="{x:Null}"
+                    Content="Rodar">
+                </Button>
+                <Button
+                    Click="ResetButton_Click"
+                    Margin="5 5 5 5"
+                    Grid.Column="2"
+                    Style="{x:Null}"
+                    Content="Reiniciar">
+                </Button>
             </Grid>
         </Grid>
     </Grid>

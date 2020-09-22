@@ -12,25 +12,25 @@
             <RowDefinition Height="5*"/>
             <RowDefinition Height="3*"/>
         </Grid.RowDefinitions>
-        <fa:ImageAwesome
-            x:Name="Arrow"
-            Visibility="Visible"
-            Margin="0 20 0 0"
-            Foreground="Orange"
-            Icon="LongArrowDown"
-            Height="100"
-            />
+        <Border
+            x:Name="SelectionBorder"
+            Grid.Row="1"
+            Margin="0 15 0 15"
+            Background="Red">
+        </Border>
         <Border
             x:Name="Border"
-            Width="80"
+            Margin="2,0,4,0"
             Height="80"
             VerticalAlignment="Center"
             Grid.Row="1"
-            Background="#303952">
+            Background="Purple"
+            CornerRadius="10">
             <Label
                 x:Name="EntryContent"
-                Margin="0 2 0 0"
-                FontFamily="{StaticResource MaterialDesignFont}"
+                Foreground="Black"
+                Margin="0 20 0 0"
+                Content="_"
                 FontSize="24"
                 FontWeight="Heavy"
                 HorizontalContentAlignment="Center">

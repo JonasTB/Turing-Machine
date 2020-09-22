@@ -7,3 +7,12 @@ C:\Users\jonas\RiderProjects\Automatos Projetct\Automatos Data\obj\Debug\netcore
 C:\Users\jonas\RiderProjects\Automatos Projetct\Automatos Data\obj\Debug\netcoreapp3.1\Automatos Data.csproj.CoreCompileInputs.cache
 C:\Users\jonas\RiderProjects\Automatos Projetct\Automatos Data\obj\Debug\netcoreapp3.1\Automatos Data.dll
 C:\Users\jonas\RiderProjects\Automatos Projetct\Automatos Data\obj\Debug\netcoreapp3.1\Automatos Data.pdb
+D:\Projects\jonasdavi_automatos\Turing-Machine\Automatos Data\bin\Debug\netcoreapp3.1\Automatos Data.deps.json
+D:\Projects\jonasdavi_automatos\Turing-Machine\Automatos Data\bin\Debug\netcoreapp3.1\Automatos Data.dll
+D:\Projects\jonasdavi_automatos\Turing-Machine\Automatos Data\bin\Debug\netcoreapp3.1\Automatos Data.pdb
+D:\Projects\jonasdavi_automatos\Turing-Machine\Automatos Data\obj\Debug\netcoreapp3.1\Automatos Data.csprojAssemblyReference.cache
+D:\Projects\jonasdavi_automatos\Turing-Machine\Automatos Data\obj\Debug\netcoreapp3.1\Automatos Data.AssemblyInfoInputs.cache
+D:\Projects\jonasdavi_automatos\Turing-Machine\Automatos Data\obj\Debug\netcoreapp3.1\Automatos Data.AssemblyInfo.cs
+D:\Projects\jonasdavi_automatos\Turing-Machine\Automatos Data\obj\Debug\netcoreapp3.1\Automatos Data.csproj.CoreCompileInputs.cache
+D:\Projects\jonasdavi_automatos\Turing-Machine\Automatos Data\obj\Debug\netcoreapp3.1\Automatos Data.dll
+D:\Projects\jonasdavi_automatos\Turing-Machine\Automatos Data\obj\Debug\netcoreapp3.1\Automatos Data.pdb
