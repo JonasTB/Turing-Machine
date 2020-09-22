@@ -4,7 +4,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Automatos Data", "Automatos
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Automato Test", "Automato Test\Automato Test.csproj", "{800CE8ED-C6B8-4AE8-8609-F7C8452E9611}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutomatosApp", "AutomatosApp\AutomatosApp.csproj", "{AF903F6C-A9BA-44D6-9941-1081AE4E3FED}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Automatos App", "Automatos App\Automatos App.csproj", "{AF903F6C-A9BA-44D6-9941-1081AE4E3FED}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

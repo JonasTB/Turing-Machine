@@ -5,15 +5,7 @@
     <projectFile>AutomatosApp/AutomatosApp.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="01b93459-2df6-4220-9b80-a51ee6fdb24f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Automatos Projetct/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Automatos Projetct/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Automatos Data/bin/Debug/netcoreapp3.1/Automatos Data.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Automatos Data/bin/Debug/netcoreapp3.1/Automatos Data.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Automatos Data/bin/Debug/netcoreapp3.1/Automatos Data.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Automatos Data/bin/Debug/netcoreapp3.1/Automatos Data.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Automatos Data/obj/Debug/netcoreapp3.1/Automatos Data.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Automatos Data/obj/Debug/netcoreapp3.1/Automatos Data.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Automatos Data/obj/Debug/netcoreapp3.1/Automatos Data.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Automatos Data/obj/Debug/netcoreapp3.1/Automatos Data.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AutomatosApp/MainWindow.xaml" beforeDir="false" afterPath="$PROJECT_DIR$/AutomatosApp/MainWindow.xaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AutomatosApp/MainWindow.xaml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AutomatosApp/MainWindow.xaml.cs" afterDir="false" />
-    </list>
+    <list default="true" id="01b93459-2df6-4220-9b80-a51ee6fdb24f" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -81,7 +73,7 @@
       <option name="USE_EXTERNAL_CONSOLE" value="0" />
       <option name="USE_MONO" value="0" />
       <option name="RUNTIME_ARGUMENTS" value="" />
-      <option name="PROJECT_PATH" value="$PROJECT_DIR$/AutomatosApp/AutomatosApp.csproj" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/Automatos App/Automatos App.csproj" />
       <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
       <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
       <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
@@ -92,7 +84,7 @@
       </method>
     </configuration>
   </component>
-  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="false" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -122,6 +114,22 @@
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
     <state x="675" y="165" key="#Automatos_App/1982.72.1858.1080/62.0.1858.1080@62.0.1858.1080" timestamp="1600734158889" />
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1600791959994">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1600791959994" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1600791959993">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1600791959993" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1600791959993">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1600791959993" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1600791959994">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1600791959994" />
     <state x="361" y="144" key="Rider.ProjectTemplateDialog.Size" timestamp="1600709122821">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
