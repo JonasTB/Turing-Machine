@@ -52,31 +52,18 @@ namespace Automatos_Data.Controllers
                 if(linhaLimpa.StartsWith("@")) continue;
                 if (linhaLimpa.StartsWith("fita "))
                 {
-                    if(dado != null)
-                        throw new ArgumentException("Não pode refinir os dados.", nameof(linhas));
                     dado = new TuringMachineData(linhaLimpa.Substring(5));//Ignore 'fita '
                 } else if (linhaLimpa.StartsWith("init "))
                 {
-                    if (estadoInicial != null)
-                        throw new ArgumentException($"Cannot redefine initial state", nameof(linhas));
                     estadoInicial = linhaLimpa.Substring(5);
                 } else if (linhaLimpa.StartsWith("accept "))
                 {
-                    if (estadoFim.Any())
-                        throw new ArgumentException($"Cannot redefine goal states", nameof(linhas));
                     estadoFim = linhaLimpa.Substring(7).Trim().Split(",");
                 }
                 else if (!string.IsNullOrWhiteSpace(linhaLimpa))
                 {
-                    try
-                    {
                         var instruction = TuringMachineInstrucoes.FromString(linhaLimpa);
                         instrucoes.Add(instruction);
-                    }
-                    catch (ArgumentException e)
-                    {
-                        throw new ArgumentException($"Could not parse line {linhaLimpa}: {e.Message}", e);
-                    }
                 }
             }
             
